@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container > .image {
+  position: relative;
+}
+.info {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+h2 {
+  color: rgb(255 99 99);
+  font-size: 110px;
+  font-family: "Sakkal Majalla", sans-serif;
+  text-shadow: 0px 1px 1px black;
+}
+p {
+  font-size: 20px;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -140px;
+  margin-left: 110px;
+  font-family: "Sakkal Majalla", sans-serif;
+}
+.languages {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+.language {
+  width: 90px;
+  height: 90px;
+  font-size: 90px;
+}
+.html i {
+  color: #e34c26;
+}
+.css i {
+  color: #264de4;
+}
+.javascript i {
+  color: #f0db4f;
+}
+.bootstrap i {
+  color: #563d7c;
+}
+.jquery {
+  width: 90px;
+  height: 90px;
+  margin-left: 10px;
+}
+.jquery img {
+  width: 100%;
+  height: 100%;
+}
+.sass i {
+  color: #c69;
+}
+.footer {
+  display: flex;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+p {
+  font-size: 30px;
+  color: black;
+  bottom: 10px;
+}

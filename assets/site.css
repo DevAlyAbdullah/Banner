@@ -28,14 +28,13 @@ p {
 }
 .languages {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   position: absolute;
   top: 300px;
   left: 50px;
+  height: 90px;
 }
 .language {
-  width: 90px;
-  height: 90px;
   font-size: 90px;
 }
 .html i {
@@ -49,11 +48,6 @@ p {
 }
 .bootstrap i {
   color: #563d7c;
-}
-.jquery {
-  width: 90px;
-  height: 90px;
-  margin-left: 10px;
 }
 .jquery img {
   width: 100%;
